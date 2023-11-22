@@ -46,7 +46,7 @@
 		}
 	}
 	else{
-		$_SESSION['error'] = 'Fill up required details first';
+		$_SESSION['error'] = 'Fill up required platform first';
 	}
 
 	header('location:'.$return);

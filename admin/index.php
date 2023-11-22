@@ -44,6 +44,4 @@
 	
 <?php include 'includes/scripts.php' ?>
 </body>
-<footer>
-<p><center>Login Details Are Provided Inside README.txt File<center></p></footer>
 </html>

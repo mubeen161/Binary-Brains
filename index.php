@@ -49,7 +49,6 @@
 <?php include 'includes/scripts.php' ?>
 </body>
 
-<footer>
-<p><center><b>NOTE:</b> To Create New Voter's ID and Password- Login to Admin Panel, Check Voters List and Add New Account. The System Automatically Generates VotersID </p></center>
+
 </div>
 </html>

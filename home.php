@@ -101,7 +101,8 @@
 											$image = (!empty($crow['photo'])) ? 'images/'.$crow['photo'] : 'images/profile.jpg';
 											$candidate .= '
 												<li>
-													'.$input.'<button type="button" class="btn btn-primary btn-sm btn-flat clist platform" data-platform="'.$crow['platform'].'" data-fullname="'.$crow['firstname'].' '.$crow['lastname'].'"><i class="fa fa-search"></i> Platform</button><img src="'.$image.'" height="100px" width="100px" class="clist"><span class="cname clist">'.$crow['firstname'].' '.$crow['lastname'].'</span>
+												'.$input.'<button type="button" class="btn btn-primary btn-sm btn-flat clist details" data-platform="'.$crow['platform'].'" data-fullname="'.$crow['firstname'].' "><i class="fa fa-search"></i> details</button><img src="'.$image.'" height="100px" width="100px" class="clist"><span class="cname clist">'.$crow['firstname'].' </span>
+
 												</li>
 											';
 										}
@@ -155,7 +156,7 @@
 	    </div>
 	  </div>
   
-  	<?php include 'includes/footer.php'; ?>
+  	
   	<?php include 'includes/ballot_modal.php'; ?>
 </div>
 

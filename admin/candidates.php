@@ -55,9 +55,9 @@
                   <th>Position</th>
                   <th>Photo</th>
                   <th>Firstname</th>
-                  <th>Lastname</th>
-                  <th>Platform</th>
-                  <th>Tools</th>
+                  <th>Partyname</th>
+                  <th>Details</th>
+                  <th>Options</th>
                 </thead>
                 <tbody>
                   <?php
@@ -93,7 +93,7 @@
     </section>   
   </div>
     
-  <?php include 'includes/footer.php'; ?>
+  
   <?php include 'includes/candidates_modal.php'; ?>
 </div>
 <?php include 'includes/scripts.php'; ?>

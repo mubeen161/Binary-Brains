@@ -68,7 +68,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="platform" class="col-sm-3 control-label">Platform</label>
+                    <label for="platform" class="col-sm-3 control-label">platform</label>
 
                     <div class="col-sm-9">
                       <textarea class="form-control" id="platform" name="platform" rows="7"></textarea>
@@ -129,7 +129,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="edit_platform" class="col-sm-3 control-label">Platform</label>
+                    <label for="edit_platform" class="col-sm-3 control-label">platform</label>
 
                     <div class="col-sm-9">
                       <textarea class="form-control" id="edit_platform" name="platform" rows="7"></textarea>
