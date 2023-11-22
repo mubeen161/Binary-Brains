@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" type="text/css" href="sty.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="contact-box">
+            <div class="image-section"></div>
+            <div class="right">
+                <!-- <h2>Contact Us</h2> -->
+				<h2>Get in touch and contact us: If you have any requests or queries, you can send us a message from here. We will be glad to help you!</h2>
+				<!-- <h3>If you are submitting an appeal for home voting service, kindly provide your reasons along with the necessary documents for verification.</h3> -->
+                <input type="text" class="field" placeholder="Your Name">
+                <input type="text" class="field" placeholder="Your Email">
+                <input type="text" class="field" placeholder="Phone">
+                <input type="text" class="field" placeholder="Voter ID">
+                <input type="file" class="field" id="uploadDocument" accept=".pdf, .doc, .docx">
+                <textarea placeholder="Message" class="field"></textarea>
+				<h3>Note: If you are submitting an appeal for home voting service, kindly provide your reasons along with the necessary documents for verification.</h3>
+                <button class="btn" onclick="submitForm()">Send</button>
+                <p id="response-message"></p>
+                <div id="stored-data"></div>
+            </div>
+        </div>
+    </div>
+    <script src="scriptttt.js"></script>
+</body>
+</html>
+
